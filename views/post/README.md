@@ -28,4 +28,11 @@
 
     ### Fin du chargement  des routes
 
-    ###
+    ### Controles des URL avec $match
+        $match = $router->$match();
+
+        ===== START SERVER =====
+
+        Gerer les erreurs de connexion
+        
+

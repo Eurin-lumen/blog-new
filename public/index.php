@@ -1,4 +1,4 @@
-<?php '../vendor/autoload.php';
+<?php require '../vendor/autoload.php';
 
 $router  = new AltoRouter();
 
@@ -16,3 +16,6 @@ $router->map('GET','/blog/category', function(){
 
 // DEMANDER SI L'URL CREER ACTUELLEMENT CORRESPOND A UN DE CES ROUTE
 
+$match = $router->match();
+// recuperation de la cible et appelle de la fonction
+$match['target']();
