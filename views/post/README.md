@@ -20,4 +20,12 @@
         => Charger dans le fichier L'autoloader dans
             'public/index.php'
             <?php '../vendor/autoload.php' ?>
-        => Mise en place du systeme de gestion des URL avec le router 
+        => Mise en place du systeme de gestion des URL avec le router
+    ### Resoudre la répétition vers les vues  dans le dossier 'views' 
+        => require dirname(__DIR__).'/views/..'
+    ### Solution : Créatiion d'une constante
+        chargement de commit : Description - (Resoudre la répétion dans la 'views')
+
+    ### Fin du chargement  des routes
+
+    ###
